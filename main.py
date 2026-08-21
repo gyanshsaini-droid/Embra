@@ -6,10 +6,8 @@ users_db = {}
 def add():
     print("Add password page...")
 
-
 def delete():
     print("Delete password page...")
-
 
 def show_passwords():
     print("Showing passwords...")
@@ -97,7 +95,7 @@ def main():
         password_menu()
 
     except KeyboardInterrupt:
-        print("\nProgram interrupted by user.")
+        print("\nProgram exitted by user.")
 
     except Exception as error:
         print(f"Unexpected error: {error}")
